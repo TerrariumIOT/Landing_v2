@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terrarium</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!----------------------- MENU ----------------------->
+
+    <div id="menu" class="row">
+      <div class="topnav">
+        <div class="topnav-right">
+          <a href="#inicio">Inicio</a>
+          <a href="#conocenos">Proyecto</a>
+          <a href="#contacto">Contacto</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+            ><i class="fa fa-bars"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------- CONTENIDO ----------------------->
+
+    <div id="inicio" class="portada-1"></div>
+
+    <div id="conocenos" class="textContainer">
+      <text class="styledText"
+        >PROYECTAMOS UN MUNDO EN EL CUAL LAS PERSONAS TENGAN UNA VIDA SALUDABLE,
+        AUTOSUSTENTABLE Y EN ARMONÍA CON NUESTRO MEDIO AMBIENTE.
+      </text>
+    </div>
+
+    <div class="renderVertical"></div>
+
+    <div class="textContainer">
+      <text class="styledText"
+        >CREAMOS SOLUCIONES TECNOLÓGICAS QUE NOS PERMITAN CAMBIAR LOS PARADIGMAS
+        ALIMENTICIOS ESTABLECIDOS, EN BÚSQUEDA DE UNA EVOLUCIÓN QUE CADA VEZ ES
+        MÁS NECESARIA.
+      </text>
+    </div>
+
+    <div class="editadaLechuga"></div>
+
+    <div id="contacto" class="formContainer">
+      <text class="styledText">SOMOS TERRARIUM, CONOCENOS. </text>
+
+      <form action="/">
+        <hr />
+        <label id="icon" for="name"><i class="fas fa-user"></i></label>
+        <input type="text" name="name" id="name" placeholder="Nombre" required />
+        <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+        <input type="text" name="name" id="name" placeholder="Email" required />
+        <hr />
+          <button type="submit" href="/">ENVIAR</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
