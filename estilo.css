@@ -42,6 +42,26 @@ body {
   background-image: url("img/editadaLechuga.png");
 }
 
+@media only screen and (max-width: 380px) {
+  .portada-1 {
+    width: 100%;
+    background-image: url("img/.png"); /*TODO: ADD MOBILE RATIO IMAGE*/
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .renderVertical {
+    width: 100%;
+    background-image: url("img/.png"); /*TODO: ADD DESKTOP RATIO IMAGE*/
+    background-color: green;
+  }
+  .editadaLechuga {
+    width: 100%;
+    background-image: url("img/.png"); /*TODO: ADD DESKTOP RATIO IMAGE*/
+    background-color: green;
+  }
+}
 /* //////////////////// ESTILOS DIV //////////////////// */
 
 .position {

@@ -63,16 +63,29 @@
     <div id="contacto" class="formContainer">
       <text class="styledText">SOMOS TERRARIUM, CONOCENOS. </text>
 
-      <form action="/">
+      <form id="mG61Hd" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8irjDwxEbCEShbQ80mIsH4LW3bPV4HTCpZy_jWy2J0d2knw/formResponse" method="POST">
         <hr />
-        <label id="icon" for="name"><i class="fas fa-user"></i></label>
-        <input type="text" name="name" id="name" placeholder="Nombre" required />
+        <label id="icon" for="name" "><i class="fas fa-user"></i></label>
+        <input name="entry.1973059747" type="text" name="name" id="name" placeholder="Nombre" required />
         <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
-        <input type="text" name="name" id="name" placeholder="Email" required />
+        <input name="entry.742426083" type="text" name="name" id="name" placeholder="Email" required />
         <hr />
           <button type="submit" href="/">ENVIAR</button>
         </div>
       </form>
     </div>
+    <script>
+      const url = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8irjDwxEbCEShbQ80mIsH4LW3bPV4HTCpZy_jWy2J0d2knw/formResponse";
+      const form = document.forms["mG61Hd"];
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(url, { method: "POST", body: new FormData(form)})
+        .then(response => response)
+        .catch(error => error);
+        document.getElementById('inicio').scrollIntoView({
+          behavior: 'smooth'
+        });
+      })
+    </script>
   </body>
 </html>
