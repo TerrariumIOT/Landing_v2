@@ -80,7 +80,14 @@ body {
 .styledText {
   width: 80%;
   font-size: calc(1vw + 2vh + 1vmin);
-  color: #1a1a1a;
+  color: #2e2e2e;
+  text-align: left;
+}
+
+.styledCenteredText {
+  width: 80%;
+  font-size: calc(1vw + 2vh + 1vmin);
+  color: #2e2e2e;
   text-align: center;
 }
 
