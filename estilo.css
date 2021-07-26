@@ -53,11 +53,11 @@ body {
 @media only screen and (min-width: 768px) {
   .renderVertical {
     width: 100%;
-    background-image: url("img/renderHorizontal.png"); /*TODO: ADD DESKTOP RATIO IMAGE*/
+    background-image: url("img/renderWebCerrado.png"); /*TODO: ADD DESKTOP RATIO IMAGE*/
   }
   .editadaLechuga {
     width: 100%;
-    background-image: url("img/renderHorizontalCerrado.png"); /*TODO: ADD DESKTOP RATIO IMAGE*/
+    background-image: url("img/renderWebAbierto.png"); /*TODO: ADD DESKTOP RATIO IMAGE*/
   }
 }
 /* //////////////////// ESTILOS DIV //////////////////// */
