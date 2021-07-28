@@ -75,43 +75,52 @@
           method="POST"
         >
           <hr />
-          <label id="icon" for="name"><i class="fas fa-user"></i></label>
-          <input
-            name="entry.1973059747"
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Nombre"
-            required
-          />
-          <label id="icon" for="email"><i class="fas fa-envelope"></i></label>
-          <input
-            name="entry.742426083"
-            type="text"
-            name="email"
-            id="email"
-            placeholder="Email"
-            required
-          />
+          <div class="formInputContainer">
+            <label id="icon" for="name"><i class="fas fa-user"></i></label>
+            <input
+              name="entry.1973059747"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nombre"
+              required
+            />
+          </div>
+          <div class="formInputContainer">
+            <label id="icon" for="email"><i class="fas fa-envelope"></i></label>
+            <input
+              name="entry.742426083"
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
           <hr />
           <button type="submit" href="/">ENVIAR</button>
         </form>
       </div>
       <div class="footerContainer">
-        <a
-          href="https://www.instagram.com/terrarium.uy/"
-          class="instagramContainer"
-        >
-          <div class="instagramLogoContainer"></div>
-          <text class="styledLittleCenteredText">terrarium.uy </text>
-        </a>
-        <a
-          href="https://www.instagram.com/labs.jpg/"
-          class="instagramContainer"
-        >
-          <div class="instagramLogoContainer"></div>
-          <text class="styledLittleCenteredText">labs.jpg </text>
-        </a>
+        <div class="instagramContainerHigher">
+          <text class="styledLittleCenteredText">Renders realizados por</text>
+          <a
+            href="https://www.instagram.com/labs.jpg/"
+            class="instagramContainer"
+          >
+            <div class="instagramLogoContainer"></div>
+            <text class="styledLittleCenteredText">labs.jpg</text>
+          </a>
+        </div>
+        <div class="instagramContainerHigher">
+          <a
+            href="https://www.instagram.com/terrarium.uy/"
+            class="instagramContainer"
+          >
+            <div class="instagramLogoContainer"></div>
+            <text class="styledLittleCenteredText">terrarium.uy</text>
+          </a>
+        </div>
       </div>
     </div>
 

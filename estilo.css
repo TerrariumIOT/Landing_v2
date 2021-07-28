@@ -120,6 +120,16 @@ body {
   height: 10%;
 }
 
+.instagramContainerHigher {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
 .instagramContainer {
   cursor: pointer;
   display: flex;
@@ -205,8 +215,10 @@ hr {
   background: #e8e8e8;
 }
 form {
-  margin: 0 30px;
+  justify-content: center;
+  align-items: center;
 }
+
 .account-type,
 .gender {
   margin: 15px 0;
