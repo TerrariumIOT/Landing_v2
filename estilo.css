@@ -215,6 +215,9 @@ hr {
 form {
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 5px;
 }
 
 .account-type,
@@ -265,9 +268,10 @@ input[type="radio"]:checked + label:after {
 }
 input[type="text"] {
   height: 36px;
+  text-align: center;
+  width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
-  padding-left: 10px;
   border: solid 1px #e8e8e8;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.09);
   background: #e8e8e8;
