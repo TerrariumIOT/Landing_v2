@@ -22,13 +22,13 @@ body {
   min-width: 100%;
 }
 .portada-1 {
-  background-image: url("img/terrarium.png");
+  background-image: url("img/terrarium.jpg");
 }
 .renderVertical {
-  background-image: url("img/renderVertical.png");
+  background-image: url("img/renderVertical.jpg");
 }
 .editadaLechuga {
-  background-image: url("img/editadaLechuga.png");
+  background-image: url("img/editadaLechuga.jpg");
 }
 
 .styledText {
@@ -100,7 +100,7 @@ body {
 @media only screen and (max-width: 700px) {
   .portada-1 {
     width: 100%;
-    background-image: url("img/terrariumMobile.png"); /*TODO: ADD MOBILE RATIO IMAGE*/
+    background-image: url("img/terrariumMobile.jpg"); /*TODO: ADD MOBILE RATIO IMAGE*/
   }
   .portada-1,
   .renderVertical,
@@ -134,11 +134,11 @@ body {
 @media only screen and (min-width: 768px) {
   .renderVertical {
     width: 100%;
-    background-image: url("img/renderWebCerrado.png"); /*TODO: ADD DESKTOP RATIO IMAGE*/
+    background-image: url("img/renderWebCerrado.jpg"); /*TODO: ADD DESKTOP RATIO IMAGE*/
   }
   .editadaLechuga {
     width: 100%;
-    background-image: url("img/renderWebAbierto.png"); /*TODO: ADD DESKTOP RATIO IMAGE*/
+    background-image: url("img/renderWebAbierto.jpg"); /*TODO: ADD DESKTOP RATIO IMAGE*/
   }
 }
 /* //////////////////// ESTILOS DIV //////////////////// */
@@ -212,7 +212,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: "Roboto";
+  font-family: "Chakra Petch";
 }
 
 .topnav a.active {
