@@ -93,9 +93,10 @@
           <div class="formInputContainer">
             <input
               name="entry.742426083"
-              type="text"
+              type="email"
               name="email"
               id="email"
+              pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
               placeholder="Email"
               required
             />
@@ -103,6 +104,9 @@
           <hr />
           <button type="submit" href="/">ENVIAR</button>
         </form>
+        <text id="successMessage" class="styledLittleSuccessCenteredText"
+          >Datos enviados con éxito
+        </text>
       </div>
       <div class="footerContainer">
         <div class="instagramContainerHigher">
@@ -138,9 +142,9 @@
         fetch(url, { method: "POST", body: new FormData(form) })
           .then((response) => response)
           .catch((error) => error);
-        document.getElementById("inicio").scrollIntoView({
-          behavior: "smooth",
-        });
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("successMessage").style.display = "block";
       });
     </script>
   </body>

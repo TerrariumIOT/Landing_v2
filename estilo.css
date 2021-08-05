@@ -59,6 +59,18 @@ body {
   margin-bottom: 10px;
 }
 
+.styledLittleSuccessCenteredText {
+  width: 100%;
+  font-size: 17px;
+  color: #4d915c;
+  text-align: center;
+  font-family: "Chakra Petch";
+  line-height: 170%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: none;
+}
+
 .styledInstagramCenteredText {
   width: 100%;
   font-size: 12px;
@@ -303,7 +315,8 @@ label.radio:after {
 input[type="radio"]:checked + label:after {
   opacity: 1;
 }
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   height: 36px;
   text-align: center;
   width: 100%;
