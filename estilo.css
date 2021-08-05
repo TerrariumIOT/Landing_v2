@@ -129,6 +129,11 @@ body {
     width: 80%;
     height: 10%;
   }
+  .topnav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -201,7 +206,7 @@ body {
 .topnav {
   position: fixed;
   overflow: hidden;
-  background-color: rgba(00, 00, 00, 0.1);
+  background-color: rgba(00, 00, 00, 0.6);
   width: 100%;
   z-index: 1;
 }
