@@ -22,13 +22,34 @@ body {
   min-width: 100%;
 }
 .portada-1 {
-  background-image: url("img/terrarium.jpg");
+  background-image: url("img/homeBackgroundLimpio.jpg");
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .renderVertical {
   background-image: url("img/renderVertical.jpg");
 }
 .editadaLechuga {
   background-image: url("img/editadaLechuga.jpg");
+}
+
+.LogoSloganContainer {
+  height: 30%;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.styledHomeText {
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: "Chakra Petch";
+  line-height: 170%;
 }
 
 .styledText {
@@ -100,12 +121,26 @@ body {
 @media only screen and (max-width: 700px) {
   .portada-1 {
     width: 100%;
-    background-image: url("img/terrariumMobile.jpg"); /*TODO: ADD MOBILE RATIO IMAGE*/
   }
+
+  .LogoSloganContainer {
+    height: 50%;
+    width: 50%;
+  }
+
   .portada-1,
   .renderVertical,
   .editadaLechuga {
     background-attachment: scroll;
+  }
+
+  .styledHomeText {
+    width: 150%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-family: "Chakra Petch";
+    line-height: 170%;
   }
 
   .styledText {
