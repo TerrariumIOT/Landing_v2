@@ -12,6 +12,7 @@ body {
 /* //////////////////// ESTILOS IMG  //////////////////// */
 .portada-1,
 .renderVertical,
+.mockupsApp,
 .editadaLechuga {
   position: relative;
   background-attachment: fixed;
@@ -30,6 +31,9 @@ body {
 .renderVertical {
   background-image: url("img/renderVertical.jpg");
 }
+.mockupsApp {
+  background-image: url("img/appMockupMobile.jpg");
+}
 .editadaLechuga {
   background-image: url("img/editadaLechuga.jpg");
 }
@@ -43,6 +47,12 @@ body {
   flex-direction: column;
 }
 
+.SmallLogoContainer {
+  height: 75px;
+  width: 75px;
+  margin-bottom: 20px;
+}
+
 .styledHomeText {
   width: 100%;
   font-size: 30px;
@@ -53,10 +63,10 @@ body {
 }
 
 .styledText {
-  width: 50%;
+  width: 60%;
   font-size: 30px;
   color: #e8e8e8;
-  text-align: left;
+  text-align: center;
   font-family: "Chakra Petch";
   line-height: 170%;
 }
@@ -129,6 +139,7 @@ body {
   }
 
   .portada-1,
+  .mockupsApp,
   .renderVertical,
   .editadaLechuga {
     background-attachment: scroll;
@@ -175,6 +186,10 @@ body {
     width: 100%;
     background-image: url("img/renderWebAbierto.jpg"); /*TODO: ADD DESKTOP RATIO IMAGE*/
   }
+  .mockupsApp {
+    width: 100%;
+    background-image: url("img/appMockup.jpg"); /*TODO: ADD DESKTOP RATIO IMAGE*/
+  }
 }
 /* //////////////////// ESTILOS DIV //////////////////// */
 .position {
@@ -183,10 +198,11 @@ body {
 .textContainer {
   background-image: radial-gradient(#2e2e2e, #000000);
   width: 100%;
-  height: 400px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .formcolumns {
