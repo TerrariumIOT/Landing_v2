@@ -196,7 +196,7 @@ body {
   position: relative;
 }
 .textContainer {
-  background-image: url("img/leafBackground.jpg");
+  background-image: url("img/textureBackground.jpg");
 
   justify-content: center;
   align-items: center;
@@ -207,7 +207,6 @@ body {
 }
 
 .textSubContainer {
-  background-color: rgba(0, 0, 0, 0.6);
   justify-content: center;
   align-items: center;
   width: 100%;
